@@ -5,7 +5,6 @@ class DropdownFilter extends React.Component {
     filter: "All",
     products: ["Phone", "Laptop", "Tablet", "TV"]
   };
-
   render() {
     const filtered =
       this.state.filter === "All"
